@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Interface for Excel</title>
+<meta name="description" content="Content Timeline HTML5 for Excel">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="css/light.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+<link href="css/ie8fix.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.timeline.min.js"></script>
+<script type="text/javascript" src="js/image.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+
+
+
+
+<script type="text/javascript">
+
+$(window).load(function() {
+	// light
+	$('.timelineLight').timeline({
+		openTriggerClass : '.read_more',
+		startItem : '04/12/2015',
+	});
+});	
+</script>
+</head>
+<body>
+
+<div class="selectors"><a href="index.html">Web Interface for Excel</a><a href="light.html" class="active">Modify the excel file to make changes</a></div>
+
+<div class="timelineLoader">
+	
+</div>
+<!-- BEGIN TIMELINE -->
+<div class="timelineLight tl">
+
+
+		
+
+_timelineContent_
+		
+		
+
+</div> <!-- /END TIMELINE -->
+
+</body>
+</html>
